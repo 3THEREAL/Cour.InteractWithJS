@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS W-1</title>
+</head>
+<body>
+    <h1 id = "test" >Tester</h1>
+    <h1 id = "test2" >Tester</h1>
+    <p>lorme*10</p>
+    <script>
+        //alert("Hello World");
+        //prompt("Yoyoyo");
+        //document.write("Lorem*5")
+        //document.getElementById('test').innerHTML = "Hello World";
+        //document.getElementById('test2').innerHTML = "Hello Again";
+        //console.log("Hello World Again");
+
+        /*var nm = prompt("What's the name ?")
+        document.write(nm);
+        console.log(nm);
+        alert(nm);*/
+
+        var name; //Createing a new variable 
+        name = prompt("Waht is your name?"); //Prompt message to insert name
+        document.write(name);//Inserted name will be printed in page
+        document.write("<h1>" + name + "</h1>");//Name will be in H1
+        document.write(name + 7 + "<br>");// Add a string 7 with the name
+        document.write(document.title+ "<br>");//Print doc title
+        var pars = document.getElementsByTagName('p');//
+        document.write(pars + "<br/>");
+        document.write(pars.length);//Numbers of paragraphs
+    </script>
+</body>
+</html>

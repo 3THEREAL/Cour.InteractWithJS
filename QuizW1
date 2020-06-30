@@ -1,0 +1,52 @@
+1.Every valid web page can be represented as a tree. This tree is referred to as the
+    DOM
+2.JavaScript uses what kind of interface to access the DOM structure?
+    an API
+3.Which of these is not valid? (Hint, pay attention to if the method should return one thing, or many things...)
+    className❌ tagName❌ idName
+4.Which of the following is not a valid method for generating output to the screen?
+    Print
+5.Which of these options does NOT require the use of parentheses?
+    innderHTML
+6.Which of the following does not generate output directly to the screen?
+    consol.log
+7.How does prompt differ from alert?
+    The prompt will return a value, alert dose not 
+8.Variables allow you to save data.
+    True
+9.In JavaScript the keyword ___________ is used to declare a variable.
+    var 
+10.What does it mean that variables are case-sensitive?
+    name != Name 
+11.Which of the following is not a valid variable name?
+    1Variable
+12.Which of the following is not a valid variable name?
+    variable$2❌ variable-2
+13.What does mnemonic mean?
+    Describe the value being stored 
+14.What is wrong with this code?
+    LHS- RHS
+15.What value is stored in name if the person hits the Cancel button on a prompt?
+    null
+16.What value is stored in name if the person hits the Okay button on a prompt before entering anything?
+    empty
+17.To create a String variable, use quotes around the value you want to save.
+    True 
+18.Boolean variables store either true or false.
+    True
+19.When a function returns a node from the DOM, it is of type
+    object
+20.A function that wants to return multiple values at once (such as document.getElementsByTagName) will return a/an
+    Array
+21.Which of the following is not a valid operator?
+    =+
+22.What value is returned by 9 % 5?
+    4❌
+23.What is the difference between == and === ?
+    equality operator❌ The ==
+24.What is the logical operator for AND?
+    &&❌
+25.Which tag is used to let the browser know that it is about to see JavaScript code?
+    <script> 
+26.JavaScript code must be placed in the <head> section of the document.
+    false
