@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS W-1</title>
+    <link rel="stylesheet" href="include/css/style.css">
 </head>
 <body>
+    <!--
     <h1 id = "test" >Tester</h1>
     <h1 id = "test2" >Tester</h1>
     <p>lorme*10</p>
@@ -44,7 +46,15 @@
         var firstName = welcomeMsg("Yoyo");
         */
 
-
     </script>
+-->
+
+    <h1>Modify the DOM</h1>
+        <button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button';">First</button>
+
+        <button onclick="document.getElementById('stuff').innerHTML = 'Clicked Another Button';">Third</button>
+    <p>This code shouldn't change.</p>
+        <p id="stuff">This will change.</p>
+            <p>This shouldn't change either.</p>
 </body>
 </html>
