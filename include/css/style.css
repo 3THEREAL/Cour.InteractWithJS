@@ -17,6 +17,7 @@
       background-color: #7F7F7F;
   }
   */
+  /*
   .closed{
 		display: none;
 }
@@ -36,4 +37,8 @@ button{
 			background-color: #7F7F7F;
       padding:10px;
       font-size:120%
+}
+*/
+img{
+  height:200px;
 }
