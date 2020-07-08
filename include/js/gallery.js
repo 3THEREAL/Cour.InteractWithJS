@@ -21,3 +21,5 @@ function upDate(previewPic){
        */
            
        }
+
+       
